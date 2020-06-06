@@ -12,6 +12,8 @@ import { LoginComponent } from './component/login/login.component';
 import { ProfileComponent } from './component/profile/profile.component';
 import { PublicationsComponent } from './component/publications/publications.component';
 import { RegisterComponent } from './component/register/register.component';
+import { SidebarComponent } from './component/sidebar/sidebar.component';
+import { TimelineComponent } from './component/timeline/timeline.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { RegisterComponent } from './component/register/register.component';
     LoginComponent,
     ProfileComponent,
     PublicationsComponent,
-    RegisterComponent
+    RegisterComponent,
+    SidebarComponent,
+    TimelineComponent
   ],
   imports: [
     BrowserModule,
