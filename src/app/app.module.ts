@@ -15,6 +15,7 @@ import { RegisterComponent } from './component/register/register.component';
 import { SidebarComponent } from './component/sidebar/sidebar.component';
 import { TimelineComponent } from './component/timeline/timeline.component';
 import { UserEditComponent } from './component/user-edit/user-edit.component';
+import { UsersComponent } from './component/users/users.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { UserEditComponent } from './component/user-edit/user-edit.component';
     RegisterComponent,
     SidebarComponent,
     TimelineComponent,
-    UserEditComponent
+    UserEditComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
