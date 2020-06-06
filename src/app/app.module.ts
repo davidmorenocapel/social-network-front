@@ -9,6 +9,9 @@ import { FollowedComponent } from './component/followed/followed.component';
 import { FollowingComponent } from './component/following/following.component';
 import { HomeComponent } from './component/home/home.component';
 import { LoginComponent } from './component/login/login.component';
+import { ProfileComponent } from './component/profile/profile.component';
+import { PublicationsComponent } from './component/publications/publications.component';
+import { RegisterComponent } from './component/register/register.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { LoginComponent } from './component/login/login.component';
     FollowedComponent,
     FollowingComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    ProfileComponent,
+    PublicationsComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
