@@ -1,15 +1,27 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {UserService} from '../../services/user.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.sass']
+    selector: 'home',
+    templateUrl: './home.component.html',
+    providers: [UserService]
 })
 export class HomeComponent implements OnInit {
+    public title: string;
+    public identity;
 
-  constructor() { }
+    constructor(
+        private _userService: UserService
+    ) {
+        this.title = 'Bienvenido!';
+    }
 
-  ngOnInit(): void {
-  }
+    ngOnInit() {
+        console.log('[OK] Component: home.');
+        console.log('Social App Version: 0.2.0');
+        this.identity = this._userService.getIdentity();
+    }
 
+    onSubmit() {
+    }
 }
