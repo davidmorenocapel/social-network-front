@@ -13,6 +13,10 @@ import { HeaderComponent } from './components/header/header.component';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import {NgForm, FormControlName} from '@angular/forms';
+
+import { ApiserviceService } from '././service/apiservice.service';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +36,11 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    ApiserviceService,
+    NgForm,
+    FormControlName
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
