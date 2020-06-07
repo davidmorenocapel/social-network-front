@@ -12,12 +12,12 @@ import { UserInfoComponent } from './containers/user-info/user-info.component';
 
 
 const routes: Routes = [
-  {path: '', component: LoginComponent},
+  {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
   {path: 'footer', component: FooterComponent},
   {path: 'header', component:HeaderComponent},
   {path: 'post', component:PostComponent},
-  {path: 'timeline', component:TimelineComponent},
+  {path: '', component:TimelineComponent},
   {path: 'userinfo', component:UserInfoComponent}
 ];
 
