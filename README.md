@@ -1,27 +1,52 @@
-# SocialApp
+# Social Network (En Desarrollo)
+**IMÁGENES EN DESARROLLO**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+Red Social en la cual puedes: 
 
-## Development server
+- Registrar.
+- Logear.
+- Post.
+- Eliminar Post.
+- Seguir a otros usuarios.
+- Dar ''me gusta'' a los post.
+- Revisar Timeline.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Instalación 
 
-## Code scaffolding
+**ANGULAR** es el Framework elegido para hacer el FRONT. 
+La forma de instalación es muy sencilla, al descargar el proyecto lo abrimos en nuestro editor y ejecutamos el siguiente comando.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+npm i
+```
+De esta forma instalamos las dependencias. Una vez ejecutado este comando, para iniciar el proyecto ejecutaremos el siguiente.
 
-## Build
+```bash
+ng serve 
+```
+Para el BACK elegimos **LARAVEL** un framework muy potente que nos facilita las tareas de generar el back. Para iniciar este back tendremos que descargarlo (https://github.com/davidmorenocapel/social-network-back.git). Una vez clonado ejecutaremos el siguiente comando para instalar las dependencias.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```bash
+composer update
+```
+Una vez instaladas las dependencias tenemos introducimos el siguiente comando que arrancara el proyecto.
 
-## Running unit tests
+```bash
+php antisan serve 
+```
+**IMPORTANTE** antes de iniciar el proyecto deberemos arrancar Xampp, Mampp o cualquiera que prefiramos. 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tecnologías 
 
-## Running end-to-end tests
+- MySQL - https://dev.mysql.com/downloads/installer/
+- MAMP - https://www.mamp.info/en/windows/
+- PHP - https://www.php.net/downloads
+- Laravel - https://laravel.com/docs/7.x/installation
+- Passport - https://laravel.com/docs/7.x/passport
+- Angular - https://angular.io/guide/setup-local
+- Sass - https://sass-lang.com/documentation
+- GitFlow - https://danielkummer.github.io/git-flow-cheatsheet/
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Autor Del Proyecto
+**David Moreno** - Full Stack developer - (davidmoreno.online)
